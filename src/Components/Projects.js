@@ -38,7 +38,11 @@ const Projects = () => {
 							justifyItems: 'space-around',
 						}}
 					>
-						<a href='https://quiziee.herokuapp.com/' target='_blank'>
+						<a
+							href='https://quiziee.herokuapp.com/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
 							<div
 								style={{
 									display: 'flex',
@@ -52,6 +56,7 @@ const Projects = () => {
 						<a
 							href='https://github.com/Mrudul-Bhatt/QuizApp.git'
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<div
 								style={{
@@ -89,7 +94,11 @@ const Projects = () => {
 							justifyItems: 'space-around',
 						}}
 					>
-						<a href='https://schedule-track.herokuapp.com/' target='_blank'>
+						<a
+							href='https://schedule-track.herokuapp.com/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
 							<div
 								style={{
 									display: 'flex',
@@ -103,6 +112,64 @@ const Projects = () => {
 						<a
 							href='https://github.com/Mrudul-Bhatt/schedule-tracker-client.git'
 							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<div
+								style={{
+									display: 'flex',
+								}}
+							>
+								<Github />
+								<Spacer />
+								<h5>Github</h5>
+							</div>
+						</a>
+					</div>
+				</Collapse>
+				<Collapse title='E-Commerce App' shadow>
+					<Divider />
+					<Text
+						style={{
+							color: 'black',
+							fontSize: '20px',
+							textAlign: 'center',
+						}}
+					>
+						E-Commerce website for buying and selling products with Login &
+						Signup. Users need to register in order to use complete
+						functionality of site. User Interface of application is served using
+						templating engine EJS. App is supported by a NodeJS, ExpressJs
+						backend which performs all the CRUD operations MongoDB is used as a
+						database for storage, there are cart and order modules along with
+						register, login, update and delete product cards.
+					</Text>
+					<Divider />
+					<div
+						style={{
+							display: 'flex',
+							justifyContent: 'space-around',
+							justifyItems: 'space-around',
+						}}
+					>
+						<a
+							href='https://market-garden.herokuapp.com/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<div
+								style={{
+									display: 'flex',
+								}}
+							>
+								<ExternalLink />
+								<Spacer />
+								<h5>Website</h5>
+							</div>
+						</a>
+						<a
+							href='https://github.com/Mrudul-Bhatt/node-project-1.git'
+							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<div
 								style={{
@@ -134,22 +201,39 @@ const Projects = () => {
 						marginBottom: '10px',
 					}}
 				>
-					<a href='https://www.instagram.com/mrudul_bhatt/' target='_blank'>
+					<a
+						href='https://www.instagram.com/mrudul_bhatt/'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
 						<Instagram color='red' />
 					</a>
-					<a href='https://www.facebook.com/utkarsh.bhatt.92' target='_blank'>
+					<a
+						href='https://www.facebook.com/utkarsh.bhatt.92'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
 						<Facebook color='red' />
 					</a>
-					<a href='https://github.com/Mrudul-Bhatt' target='_blank'>
+					<a
+						href='https://github.com/Mrudul-Bhatt'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
 						<Github color='red' />
 					</a>
 					<a
 						href='https://www.linkedin.com/in/mrudul-bhatt-a6772a187/'
 						target='_blank'
+						rel='noopener noreferrer'
 					>
 						<Linkedin color='red' />
 					</a>
-					<a href='https://www.hackerrank.com/dashboard' target='_blank'>
+					<a
+						href='https://www.hackerrank.com/dashboard'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
 						<Code color='red' />
 					</a>
 				</div>

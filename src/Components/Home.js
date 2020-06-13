@@ -60,22 +60,39 @@ const Home = () => {
 						marginBottom: '10px',
 					}}
 				>
-					<a href='https://www.instagram.com/mrudul_bhatt/' target='_blank'>
+					<a
+						href='https://www.instagram.com/mrudul_bhatt/'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
 						<Instagram color='red' />
 					</a>
-					<a href='https://www.facebook.com/utkarsh.bhatt.92' target='_blank'>
+					<a
+						href='https://www.facebook.com/utkarsh.bhatt.92'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
 						<Facebook color='red' />
 					</a>
-					<a href='https://github.com/Mrudul-Bhatt' target='_blank'>
+					<a
+						href='https://github.com/Mrudul-Bhatt'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
 						<Github color='red' />
 					</a>
 					<a
 						href='https://www.linkedin.com/in/mrudul-bhatt-a6772a187/'
 						target='_blank'
+						rel='noopener noreferrer'
 					>
 						<Linkedin color='red' />
 					</a>
-					<a href='https://www.hackerrank.com/dashboard' target='_blank'>
+					<a
+						href='https://www.hackerrank.com/dashboard'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
 						<Code color='red' />
 					</a>
 				</div>

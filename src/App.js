@@ -9,12 +9,11 @@ const App = () => {
 	return (
 		<>
 			<Page size='small' className='container'>
-				<Page.Header style={{ color: 'blue' }}>
+				<Page.Header>
 					<h1
 						style={{
 							fontFamily: "'Sriracha', cursive",
 							color: 'red',
-							backgroundColor: 'black',
 						}}
 					>
 						Mrudul Bhatt
