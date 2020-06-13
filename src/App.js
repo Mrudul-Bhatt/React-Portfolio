@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Page, Tabs, Spacer, Divider } from '@zeit-ui/react';
+import Home from './Components/Home';
+import Services from './Components/Services';
+import Projects from './Components/Projects';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<>
+			<Page size='small' className='container'>
+				<Page.Header style={{ color: 'blue' }}>
+					<h1
+						style={{
+							fontFamily: "'Sriracha', cursive",
+							color: 'red',
+							backgroundColor: 'black',
+						}}
+					>
+						Mrudul Bhatt
+					</h1>
+				</Page.Header>
+				<Divider />
+				<Page.Content style={{ color: 'red' }}>
+					<Tabs initialValue='about'>
+						<Tabs.Item label='About' value='about'>
+							<Spacer y={3} />
+							<Home />
+						</Tabs.Item>
+						<Tabs.Item label='Services' value='services'>
+							<Spacer y={3} />
+							<Services />
+						</Tabs.Item>
+						<Tabs.Item label='Projects' value='projects'>
+							<Projects />
+						</Tabs.Item>
+					</Tabs>
+				</Page.Content>
+			</Page>
+		</>
+	);
+};
 
 export default App;
