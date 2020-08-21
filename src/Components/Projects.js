@@ -428,7 +428,7 @@ const Projects = () => {
 			<Grid xs={24} md={24}>
 				<MockItem1 />
 			</Grid>
-			<Spacer y={5} />
+			<Spacer y={3} />
 			<Grid xs={24} md={24}>
 				<MockItem2 />
 			</Grid>

@@ -8,7 +8,7 @@ import Projects from './Components/Projects';
 const App = () => {
 	return (
 		<>
-			<Page size='medium' className='container'>
+			<Page size='small' className='container'>
 				<Page.Header>
 					<h1
 						style={{
