@@ -8,7 +8,7 @@ import Projects from './Components/Projects';
 const App = () => {
 	return (
 		<>
-			<Page size='small' className='container'>
+			<Page size='large' className='container'>
 				<Page.Header>
 					<h1
 						style={{
@@ -16,7 +16,7 @@ const App = () => {
 							color: 'red',
 						}}
 					>
-						Mrudul Bhatt
+						@mrudul_bhatt
 					</h1>
 				</Page.Header>
 				<Divider />
@@ -26,7 +26,7 @@ const App = () => {
 							<Spacer y={3} />
 							<Home />
 						</Tabs.Item>
-						<Tabs.Item label='Services' value='services'>
+						<Tabs.Item label='I Do' value='services'>
 							<Spacer y={3} />
 							<Services />
 						</Tabs.Item>

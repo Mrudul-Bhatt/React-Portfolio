@@ -14,7 +14,168 @@ const Projects = () => {
 	const MockItem1 = () => {
 		return (
 			<Collapse.Group>
-				<Collapse title='Quiz App' shadow>
+				<Collapse title="SPOCC'20-Quiz" shadow>
+					<Divider />
+					<Text
+						style={{
+							color: 'black',
+							fontSize: '20px',
+							textAlign: 'center',
+						}}
+					>
+						A multisection , multiple choice , quiz website using mern stack
+						with jwt auth for recruitment drive 2020 of cloud computing cell
+					</Text>
+					<Divider />
+					<div
+						style={{
+							display: 'flex',
+							justifyContent: 'space-around',
+							justifyItems: 'space-around',
+						}}
+					>
+						<a
+							href='https://cccquiz.vercel.app/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<div
+								style={{
+									display: 'flex',
+								}}
+							>
+								<ExternalLink />
+								<Spacer />
+								<h5>Website</h5>
+							</div>
+						</a>
+						<a
+							href='https://github.com/Mrudul-Bhatt/SPOCC-20-Quiz.git'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<div
+								style={{
+									display: 'flex',
+								}}
+							>
+								<Github />
+								<Spacer />
+								<h5>Github</h5>
+							</div>
+						</a>
+					</div>
+				</Collapse>
+				<Collapse title='Instagram-Social Media' shadow>
+					<Divider />
+					<Text
+						style={{
+							color: 'black',
+							fontSize: '20px',
+							textAlign: 'center',
+						}}
+					>
+						A social media app using mern stack , similar to Instagram with
+						basic functions. Add/delete/edit post , add/delete comments,
+						like/unlike post , follow/unfollow users , see followers /following
+						, save/unsave to collections , update profile img , search users ,
+						user authentication and authorization using jwt
+					</Text>
+					<Divider />
+					<div
+						style={{
+							display: 'flex',
+							justifyContent: 'space-around',
+							justifyItems: 'space-around',
+						}}
+					>
+						<a
+							href='https://insta.vercel.app/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<div
+								style={{
+									display: 'flex',
+								}}
+							>
+								<ExternalLink />
+								<Spacer />
+								<h5>Website</h5>
+							</div>
+						</a>
+						<a
+							href='https://github.com/Mrudul-Bhatt/Instagram-Clone.git'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<div
+								style={{
+									display: 'flex',
+								}}
+							>
+								<Github />
+								<Spacer />
+								<h5>Github</h5>
+							</div>
+						</a>
+					</div>
+				</Collapse>
+				<Collapse title='NoteIt' shadow>
+					<Divider />
+					<Text
+						style={{
+							color: 'black',
+							fontSize: '20px',
+							textAlign: 'center',
+						}}
+					>
+						This is a mern stack web app for user notes management
+						Add/delete/edit note , save to favourites, uses react quill
+						libraryfor rich text editing , user authentication and authorization
+						using jwt
+					</Text>
+					<Divider />
+					<div
+						style={{
+							display: 'flex',
+							justifyContent: 'space-around',
+							justifyItems: 'space-around',
+						}}
+					>
+						<a
+							href='https://note-it.vercel.app'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<div
+								style={{
+									display: 'flex',
+								}}
+							>
+								<ExternalLink />
+								<Spacer />
+								<h5>Website</h5>
+							</div>
+						</a>
+						<a
+							href='https://github.com/Mrudul-Bhatt/NOTEit-React-App.git'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<div
+								style={{
+									display: 'flex',
+								}}
+							>
+								<Github />
+								<Spacer />
+								<h5>Github</h5>
+							</div>
+						</a>
+					</div>
+				</Collapse>
+				<Collapse title='QuizBee' shadow>
 					<Divider />
 					<Text
 						style={{
@@ -126,7 +287,7 @@ const Projects = () => {
 						</a>
 					</div>
 				</Collapse>
-				<Collapse title='E-Commerce App' shadow>
+				<Collapse title='E-Commerce' shadow>
 					<Divider />
 					<Text
 						style={{
@@ -267,7 +428,7 @@ const Projects = () => {
 			<Grid xs={24} md={24}>
 				<MockItem1 />
 			</Grid>
-			<Spacer y={15} />
+			<Spacer y={5} />
 			<Grid xs={24} md={24}>
 				<MockItem2 />
 			</Grid>

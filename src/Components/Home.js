@@ -30,8 +30,7 @@ const Home = () => {
 				}}
 			>
 				<h3 style={{ color: 'red' }}>
-					Hi, I'am Mrudul, CS Student, MERN Stack Developer, Competitive
-					Programmer...
+					Hi, I'am Mrudul, CS Student, Web Developer, Competitive Programmer...
 				</h3>
 				<Divider />
 				<Text style={{ color: 'black', fontSize: '19px' }}>
